@@ -1,6 +1,8 @@
 '''
  - Programa: Receber um número inteiro e mostrar
  - seu dobro, triplo e raiz.
+ - Programador: LucasP, Crazypingolu
+ - versão: 1.0
 '''
 # Trazer elemento da biblioteca
 from math import sqrt

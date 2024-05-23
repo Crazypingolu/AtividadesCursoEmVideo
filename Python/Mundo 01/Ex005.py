@@ -1,6 +1,8 @@
 '''
  - Programa: Receber um número inteiro e mostrar
  - seu antecessor e seu sucessor.
+ - Programador: LucasP, Crazypingolu
+ - versão: 1.0
 '''
 # Definir variáveis:
 num = int

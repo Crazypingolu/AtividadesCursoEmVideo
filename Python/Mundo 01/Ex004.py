@@ -7,6 +7,8 @@
  - é totalmente minúscula;
  - é um alfa-numérico (letras e números);
  - se a inicial é maiuscula;
+ - Programador: LucasP, Crazypingolu
+ - versão: 1.0
 '''
 # Definir variáveis:
 entrada = str
