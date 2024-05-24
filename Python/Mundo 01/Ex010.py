@@ -16,6 +16,8 @@ dolar = real / 5.1
 euro = real / 5.59
 iene = real / 0.033
 # Saída de dados:
-print(f"Real para Dolar: {dolar:.2f}",
-      f"Real para Euro:  {euro:.2f}",
-      f"Real para Iene:  {iene:.2f}")
+print('...'*17,
+      f"\nReal para Dolar: {dolar:.2f}",
+      f"\nReal para Euro:  {euro:.2f}",
+      f"\nReal para Iene:  {iene:.2f}",
+      "\n", '...'*17)
