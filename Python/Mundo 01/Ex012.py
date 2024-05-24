@@ -8,8 +8,8 @@
 produtoOriginal = float
 produtoReajuste = float
 # Entrada de dados:
-produtoOriginal = float(input("Digite o valor do produto: "))
+produtoOriginal = float(input(" \nDigite o valor do produto: "))
 # Processamento de dados:
 produtoReajuste = produtoOriginal * 0.95
 # Saída de dados:
-print(f"O produto com 5% de desconto é: {produtoReajuste}")
+print(f"O produto com 5% de desconto é: {produtoReajuste:.2f}")
