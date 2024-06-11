@@ -30,3 +30,4 @@ elif idade <= 20:
     print('Categoria: SÊNIOR.')
 else:
     print('Categoria: MASTER.')
+# FIM.
