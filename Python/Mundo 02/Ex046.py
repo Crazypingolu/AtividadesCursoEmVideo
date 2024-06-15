@@ -4,9 +4,13 @@
  - Programador: LucasP, Crazypingolu
  - versão: 2.0
 '''
+# Trazer Bibliotecas
 from time import sleep
 import emoji
+# loop de processamento
 for ano_novo in range (10, -1, -1):
     print(ano_novo)
     sleep(1)
+# mensagem de saída
 print(emoji.emojize('🎉'))
+# Fim.
