@@ -14,4 +14,5 @@ razao = int(input('Digite a razão: '))
 decimo = primeiro + 10 * razao
 # Saída de dados:
 for c in range(primeiro, decimo, razao):
-    print(c)
+    print(f"\033[0;31;40m{c}\033[m")
+# Fim
