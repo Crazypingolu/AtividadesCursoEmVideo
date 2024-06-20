@@ -1,5 +1,5 @@
 '''
- - Programa: Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.
+ - Programa:  Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
  - Programador: LucasP, Crazypingolu
  - versão: 2.0
 '''
