@@ -23,7 +23,7 @@ for cto in range(1, 5, 1):
     # Soma a idade pro cálculo da média fora do loop.
     mediaIdade += idadeEntrada
     # Verifica se é um homem e se a idade dele for maior que a do homem mais velho registrado ou se não tem registro de mais velho.
-    if sexoEntrada == 1 and nomeHMaisVelho == "" or sexoEntrada == 1 and idadeHmaisVelho < idadeEntrada:
+    if sexoEntrada == 1 and idadeHmaisVelho < idadeEntrada:
         nomeHMaisVelho = nomeEntrada
         idadeHmaisVelho = idadeEntrada
     # Verifica se é uma mulher e se a idade dela é menor que 20. 
