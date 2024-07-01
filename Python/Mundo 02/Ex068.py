@@ -3,7 +3,7 @@
  - O jogo só será interrompido quando o jogador perder, 
  - mostrando o total de vitórias consecutivas que ele conquistou no final do jogo. 
  - Programador: LucasP, Crazypingolu
- - versão: 2.0
+ - versão: 2.0.1
 '''
 # Trazer bibliotecas:
 from random import randint
@@ -23,7 +23,12 @@ while True:
         else:
             print("Valor inválido.")
     # Entrada de um número pelo jogador:
-    jogador = int(input("Digite um número: \n"))
+    while True:
+        jogador = int(input("Digite um número (entre 1 e 10): \n"))
+        if jogador > 0 and jogador < 11:
+            break
+        else:
+            print("Entrada inválida.")
     jogador += comp
     # Validação de vitória:
     if jogador % 2 == 0 and parOuImpar == 1 or jogador % 2 != 0 and parOuImpar == 2:
@@ -32,5 +37,5 @@ while True:
     else:
         break
 # Saída:
-print(f"\nVitórias alcançadas: {vito}x")
+print(f"\nVitórias alcançadas: \033[32m{vito}x\033[m")
 # Fim.
