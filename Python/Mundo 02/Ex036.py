@@ -26,4 +26,4 @@ if emprestimoValido == True:
     print("O empréstimo pode ser efetuado!")
 else:
     print("O empréstimo está negado.")
-# Fim
+# Fim.
