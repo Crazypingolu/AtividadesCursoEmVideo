@@ -11,8 +11,9 @@ vog = int
 # Processamento de dados:
 print(' ')
 for p in lista:
-     print(f'\nNa palavra {p} temos: ', end="")
-     for l in p:
+    vog = 0
+    for l in p:
           if l in "AEIOU":
-               print(l, end=" ")
+               vog += 1
+    print(f'Na palavra {p} temos {vog} vogal(is).')
 # Fim.
