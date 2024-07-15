@@ -13,7 +13,7 @@ cont = int
 print(' ')
 for n in range(0,5,1):
     num = int(input(f"Digite o {n+1}º número: "))
-    if n == 0 or num > lista[len(lista)-1]:
+    if n == 0 or num > lista[-1]:
         lista.append(num)
     else:
         cont = 0
@@ -22,4 +22,6 @@ for n in range(0,5,1):
                 lista.insert(cont, num)
                 break
             cont += 1
-print(lista)
+# Saída de dados:
+print("Lista dos números digitados em ordem crescente: \n", *lista)
+# Fim.
