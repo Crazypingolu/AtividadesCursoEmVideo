@@ -1,7 +1,7 @@
-/*
- * Program: Create an aplication that verifeis the screen dimension values.
- * Programmer: Lucas P, Crazypingolu
- * version: 1.0
+/**
+  Program: Create an aplication that verifeis the screen dimension values.
+  @author Lucas P, Crazypingolu
+  @version 1.0
  */
 import java.awt.Dimension;
 import java.awt.Toolkit;

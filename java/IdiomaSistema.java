@@ -1,7 +1,7 @@
-/*
- * Program: Create an aplication that print the current system language.
- * Programmer: Lucas P, Crazypingolu
- * version: 1.0
+/**
+  Program: Create an aplication that print the current system language.
+  @author Lucas P, Crazypingolu
+  @version 1.0
  */
 import java.util.Locale;
 public class IdiomaSistema {
